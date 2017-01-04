@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="input-fields">
+    <input type="text"  class="input_name" id="input_name" required  placeholder="Your Name"> 
+     <input type="number"  class="input_salary" id="input_salary" required  placeholder="Salary">
+     <input type="number"  class="increment" id="increment" placeholder="Increment (%)" required >
+     <button class="myBtn" onclick="addRow();">Add Row</button>
+     <button class="delBtn" onclick="deleteRow();">Delete Row</button>
+      
+<!--     <input type = "button" value=" Add Row" class="button"  onclick="addRow();Clear()">-->
+    </div>
+    
+     
+<table   class="table"id="tableData">
+<tr>
+
+<th>Name</th>
+<th>Salary</th>
+<th>Increment</th>
+<th id="total">Total</th>
+</tr>
+
+</table>
+    
+     
+    
+    
+    
+<script src="script.js"></script>
+</body>
+</html>

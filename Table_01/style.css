@@ -1,0 +1,64 @@
+html{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-fields{
+    background-color: #18938e;
+/*    padding-left: 30px;*/
+    padding: 20px;
+}
+.input_name, .input_salary, .increment{
+    text-align: center;
+    padding:05px 15px;
+    border-radius: 0px;
+    margin-right: 15px;
+    font-size: 14px;
+    background-color: #ededed;
+    
+}
+/*
+.increment{
+    margin-right: 40px;
+}
+*/
+.input-name, .input-salary, .increment:focus{outline-color: #00ffff};
+.myBtn{
+    position: absolute;
+    
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.table{
+ 
+    background-color: whitesmoke;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+th{
+    background-color: #13625f;
+    color: #FFF;
+    padding: 10px;
+    margin-top: 0px;
+    
+}
+td{
+    border: 1px solid #000;
+}
+
+.button, .delBtn:active { transform: translateY(2px); }
+.button, .delBtn :focus {outline: #00ffff};
+
+.delBtn{
+    float: right;
+
+}
+
+
+
